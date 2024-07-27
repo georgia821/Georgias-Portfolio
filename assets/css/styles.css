@@ -878,7 +878,7 @@ span {
   }
 
   .portfolio__img {
-    width: 300px;
+    object-fit: contain;  
   }
   .portfolio__content {
     align-items: center;
