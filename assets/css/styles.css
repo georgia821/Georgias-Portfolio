@@ -5,7 +5,7 @@
   --header-height: 3rem;
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 260;
+  --hue-color: 250;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -81,6 +81,18 @@ body.dark-theme .qualification__calendar {
 }
 body.dark-theme .uil.uil-calendar-alt {
   color: var(--icon-color);
+}
+
+body.dark-theme .nav__link:hover {
+  color:#c2c7c7;
+}
+
+body.dark-theme .active-link {
+color:#c2c7c7;
+} 
+
+body.dark-theme .qualification__button.qualification__active {
+  color:#FFF; 
 }
 
 /*========== Dark/Light ==========*/
